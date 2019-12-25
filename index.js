@@ -1,6 +1,6 @@
 'use strict';
 
-var fs = require('fs');
+var fs = require('react-native-fs');
 
 module.exports = function isFile(path, cb){
   if(!cb)return isFileSync(path);
